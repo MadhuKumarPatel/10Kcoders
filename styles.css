@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    align-items: center;
+}
+.nav-content{
+    display: flex;
+    margin-top: 20px;
+}
+.nav-content a{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.maincontent{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    margin-left: 150px; 
+}
+.content p{
+    width: 500px;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.content h1{
+    width: 700px;
+    line-height: 50px;
+}
+.content1 p{
+     line-height: 30px;
+     font-weight: 600;
+     color: green;
+}
+.content1 span{
+    color: green;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn button{
+    height: 80px;
+    width: 300px;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.btn p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.content2 h1{
+    text-align: center;
+    margin-top: 40px;
+}
+.content2 p{
+    margin-left: 450px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.content3{
+    margin-left: 450px;
+    margin-top: 30px;
+}
+.content3 p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn1{
+    text-align: center;
+}
+.btn1 button{
+    height: 80px;
+    width: 300px;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.btn1 p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footbutton{
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    bottom: 50px;
+}
+.footimg img{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
+}
+.footbutton p{
+    margin-top: 20px;
+}
+
